@@ -56,11 +56,11 @@ data_split/
 git clone https://github.com/your-username/wildfire-detection.git
 cd wildfire-detection
 
-###Step 2: Create Virtual Environment
+### Step 2: Create Virtual Environment
 python -m venv wildfire_env
 
-###Step 3: Activate Virtual Environment
-####Windows (PowerShell):
+Step 3: Activate Virtual Environment
+Windows (PowerShell):
 
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .\wildfire_env\Scripts\Activate.ps1
