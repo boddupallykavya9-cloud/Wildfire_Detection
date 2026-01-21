@@ -49,19 +49,18 @@ https://www.kaggle.com/datasets/abdelghaniaaba/wildfire-prediction-dataset
 ## 🚀 How to Run the Project
 
 ### Step 1: Clone the Repository
-```bash
+
 git clone https://github.com/your-username/wildfire-detection.git
 cd wildfire-detection
 
 ### Step 2: Create a Virtual Environment
 
-```bash
 python -m venv wildfire_env
 
 ### Step 3: Activate the Virtual Environment
 
 **Windows (PowerShell):**
-```bash
+
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .\wildfire_env\Scripts\Activate.ps1
 
@@ -69,11 +68,11 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 wildfire_env\Scripts\activate
 
 ### Step 4: Install Dependencies
-```bash
+
 pip install -r requirements.txt
 
 ### Step 4: Run the Streamlit App
-```bash
+
 streamlit run app.py
 
 The application will open in your browser at:  
